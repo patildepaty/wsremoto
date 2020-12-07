@@ -1,0 +1,22 @@
+package br.com.universidadexyz.implementacao;
+
+public class implementarProfessor {
+
+	public static void main(String[] args) {
+
+		Professor p = new Professor();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

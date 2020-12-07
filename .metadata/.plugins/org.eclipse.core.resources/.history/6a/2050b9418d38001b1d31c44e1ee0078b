@@ -1,0 +1,11 @@
+package br.com.bankofoz.implementacao;
+
+import br.com.bankofoz.beans.Conta;
+import br.com.lojaabc.util.Magic;
+
+public class implementarConta {
+
+	int opcao = Magic.i("Digite <1> para conta corrente ou <2> para conta poupança.");
+	Conta conta = new Conta();
+	
+}

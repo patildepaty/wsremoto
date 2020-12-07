@@ -1,0 +1,58 @@
+package br.com.universidadexyz.implementacao;
+
+import br.com.universidadexyz.beans.Aluno;
+import br.com.universidadexyz.beans.Curso;
+import br.com.universidadexyz.beans.Endereco;
+import br.com.universidadexyz.beans.Professor;
+import br.com.universidadexyz.beans.Turma;
+
+public class implementarTurma {
+
+	public static void main(String[] args) {
+
+		Turma t = new turma(
+				10,
+				new Aluno(
+				12,
+				"Patricia",
+				"12345"
+				),
+				new Professor(
+				10,
+				"Ze",
+				"prof",
+				20,
+				new Endereco (
+				"RUAZINHA",
+				"20",
+				"APTO 3",
+				"VILA MARIANA",
+				"SAO JOSE",
+				"SP"
+				"00293-000"
+						)		
+				),
+				new Curso (
+				"Matematica",
+				10,
+				20,
+				"CAL",
+				567,
+				300,
+				50),
+				7,
+				12				
+				);
+				
+		System.out.println(p.toString());				
+				
+				
+				
+				
+				
+				
+				
+
+	}
+
+}

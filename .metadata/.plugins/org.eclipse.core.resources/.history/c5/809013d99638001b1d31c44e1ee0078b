@@ -1,0 +1,11 @@
+package tratarexcecao;
+
+public class MinhaExcecao {
+
+	//método static pq não tem atributo
+	
+	public static String tratar(Exception e);
+	
+	
+	
+}

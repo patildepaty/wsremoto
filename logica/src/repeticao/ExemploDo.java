@@ -1,0 +1,23 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class ExemploDo {
+
+	public static void main(String[] args) {
+
+		String cargo = "";
+		float salario=0;
+		do {
+		cargo = JOptionPane.showInputDialog("Cargo");
+		salario = Float.parseFloat(JOptionPane.showInputDialog("Salário"));
+		JOptionPane.showMessageDialog(null,"Valor hora: " + (salario/160));
+		}while(JOptionPane.showConfirmDialog(
+				null, //referencia para a pergunta => centraliza em relação ao monitor se deixar como null
+				"Deseja continuar?",
+				"Pergunta",
+				JOptionPane.YES_NO_OPTION)==0);
+
+	}
+
+}

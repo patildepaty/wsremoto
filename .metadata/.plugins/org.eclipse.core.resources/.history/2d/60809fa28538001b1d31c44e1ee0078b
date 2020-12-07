@@ -1,0 +1,11 @@
+package br.com.bankofoz.beans;
+
+public class Conta {
+
+	private short numero;
+	private float digito;
+	private short agencia;
+	private float saldo;
+	private Cliente cliente;
+	
+}

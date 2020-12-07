@@ -1,0 +1,28 @@
+package br.com.excecoes.implementacao;
+
+public class TesteExcecao {
+
+	public static void main(String[] args) {
+
+		try {
+		int numero = Integer.parseInt("a");
+		System.out.println("Número: " + numero);
+		
+		String palavra = null;
+		System.out.println("Qtde caracteres: " + palavra.length());	
+		
+		} catch (NumberFormatException e) {
+			System.out.println("Número inválido");
+
+		} catch (Exception e) {
+			System.out.println("Deu ruim");
+			e.printStackTrace();
+		}
+		
+		
+		
+		
+		
+	}
+
+}

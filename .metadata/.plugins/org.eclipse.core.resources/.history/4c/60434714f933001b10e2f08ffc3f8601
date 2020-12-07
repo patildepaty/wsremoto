@@ -1,0 +1,33 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class Lista2Exercicio3 {
+
+	public static void main(String[] args) {
+		int valor1 = Integer.parseInt(JOptionPane.showInputDialog("Primeiro valor"));
+		int valor2 = Integer.parseInt(JOptionPane.showInputDialog("Segundo valor"));
+	char resposta = JOptionPane.showInputDialog("Digite um operador").charAt(0);
+	int resultado = valor1;
+	if (resposta == '+') {
+			resultado = valor1 + valor2;
+		} else if (resposta == '-') {
+			resultado = valor1 - valor2;
+		} else if (resposta == 'x') {
+			resultado = valor1 * valor2;
+		} else {
+			resultado = valor1 / valor2;
+		}
+	System.out.println("Resultado: " + resultado);	
+
+	}
+
+}
+
+
+/*
+char resposta = JOptionPane.showInputDialog("Digite um operador").charAt(0);
+if (resposta == '+') {
+	
+}
+*/

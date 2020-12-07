@@ -1,0 +1,38 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioDoProfessor {
+
+	public static void main(String[] args) {
+		/*
+		 * Game: adivinhação
+		 * Jogador1: vai digitar um número inteiro
+		 * Jogador2: vai ter que adivinhar o número
+		 * Quando o jogador 2 acertar, tem que mostrar parabéns.
+		 * 
+		 * Plus:
+		 * - Implemente uma ajuda da sua aplicação. Se o jogador 2 estiver chutando alto, avise que o número é mais baixo e vice-versa.
+		 * - Quando o jogador 2 acertar, apresente a quantidade de vezes que ele utilizou.
+		 */
+		
+		int numero = Integer.parseInt(JOptionPane.showInputDialog("Digite um número"));
+		int chute = 0;
+		int contador = 0;
+		do {
+			chute = Integer.parseInt(JOptionPane.showInputDialog("Adivinhe o número"));
+			contador=contador+1;
+			//contador++;
+			//contador+=1
+			if (numero>chute) {
+				System.out.println("O número é maior!!!");
+			}else if (numero<chute)
+				System.out.println("O número é menor!!!");
+		}while (numero!=chute);
+		System.out.println("Parabéns!!! \nVocê acertou com " + contador + " tentativas");
+		
+
+		
+	}
+
+}

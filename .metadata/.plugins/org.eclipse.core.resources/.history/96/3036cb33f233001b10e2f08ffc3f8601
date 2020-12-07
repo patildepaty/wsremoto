@@ -1,0 +1,27 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class Lista2Exercicio1 {
+
+	public static void main(String[] args) {
+		char qtde = Char.parseChar(JOptionPane.showInputDialog("Qtde de diárias"));
+		if (qtde<15) {
+			int conta = 80 + (8 * (short) qtde);
+			System.out.println("Sua conta é de R$" + conta);
+		} else if (qtde == 15){
+			int conta = 80 + (6 * (short) qtde);
+			System.out.println("Sua conta é de R$" + conta);
+		} else {
+			float conta = 80 + (5,5 * (float) qtde);
+			System.out.println("Sua conta é de R$" + conta);
+		}
+		
+		
+		
+		
+		
+		
+	}
+
+}
