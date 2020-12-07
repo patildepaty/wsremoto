@@ -1,8 +1,9 @@
-INDEX VERSION 1.131+C:\Users\987270723\Desktop\turma12c\ws\.metadata\.plugins\org.eclipse.jdt.core
-2922197066.index
+INDEX VERSION 1.131+C:\Users\987270723\Desktop\turma12c\wsremoto\.metadata\.plugins\org.eclipse.jdt.core
 2237291961.index
-51274687.index
-2296325567.index
-1214432676.index
 1372551170.index
+2296325567.index
+2804819026.index
 1826017696.index
+51274687.index
+1214432676.index
+2922197066.index
