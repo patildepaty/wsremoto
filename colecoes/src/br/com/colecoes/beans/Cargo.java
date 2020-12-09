@@ -1,6 +1,6 @@
 package br.com.colecoes.beans;
 
-public class Cargo implements Comparable<Cargo>{ //quando da um add metodo, gera o metodo que está por ultimo
+public class Cargo implements Comparable<Cargo>{ //quando da um add metodo, gera o metodo compare to
 
 	private String nome;
 	private String nivel;

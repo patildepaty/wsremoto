@@ -29,13 +29,13 @@ public class DesafioDo {
 			} else {
 			JOptionPane.showMessageDialog(null,"Está muito alto, tente mais baixo");
 			}
-			}while {(JOptionPane.showConfirmDialog(
+			}while (JOptionPane.showConfirmDialog(
 					null, //referencia para a pergunta => centraliza em relação ao monitor se deixar como null
 					"Deseja tentar de novo?",
 					"Pergunta",
 					JOptionPane.YES_NO_OPTION)==0);
 				}
-		}
+		
 		
 
 		
