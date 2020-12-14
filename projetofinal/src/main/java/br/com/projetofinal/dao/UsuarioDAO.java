@@ -17,5 +17,7 @@ public interface UsuarioDAO extends CrudRepository<Usuario, Integer> {
  * deleteAll() => apaga todas as linhas da tabela
  */
 
+	public Usuario findByEmailAndSenha(String email, String senha);
+	
 	
 }
